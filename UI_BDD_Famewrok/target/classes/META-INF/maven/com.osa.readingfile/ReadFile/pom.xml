@@ -1,0 +1,46 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.osa.readingfile</groupId>
+  <artifactId>ReadFile</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  <properties>
+  <apachePoi.version>4.1.0</apachePoi.version>
+  <selenium.version>3.141.59</selenium.version>
+  <cucumber.version>1.2.5</cucumber.version>
+  </properties>
+  <dependencies>
+	<dependency>
+	    <groupId>org.apache.poi</groupId>
+	    <artifactId>poi-ooxml</artifactId>
+	    <version>${apachePoi.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>org.seleniumhq.selenium</groupId>
+	    <artifactId>selenium-java</artifactId>
+	    <version>${selenium.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-core</artifactId>
+	    <version>${cucumber.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-java</artifactId>
+	    <version>${cucumber.version}</version>
+	</dependency>
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-testng</artifactId>
+	    <version>${cucumber.version}</version>
+	</dependency>
+	
+	<dependency>
+	    <groupId>info.cukes</groupId>
+	    <artifactId>cucumber-junit</artifactId>
+	    <version>${cucumber.version}</version>
+	    <scope>test</scope>
+	</dependency>
+
+  </dependencies>
+</project>
